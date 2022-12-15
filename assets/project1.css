@@ -1,0 +1,12 @@
+body{
+    background-color:  #393737;
+    color: #F1FCFD;
+    display: flex;
+    
+}
+h1{
+    font-size: 4em;
+    color: #F1FCFD;
+    justify-content: center;
+    align-items: center;
+}

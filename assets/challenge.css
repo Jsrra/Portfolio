@@ -1,0 +1,242 @@
+/*
+Horizontal Scroll Bar
+Responsiveness
+H2's and borders dont align
+position absolute 'portfolio' and labels
+4 work images aligned correctly
+center text 
+contact alignment
+resume alignment
+
+ */
+body{
+    background-color: #F1FCFD;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: #393737; 
+    color: #4D6DE3;
+    font-family: monospace;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    background-color: #4D6DE3;
+    color: #393737;
+    margin-left: 2%;
+    height: 1em;
+    font-size: 5em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+header nav{
+    display: flex;
+    padding-right: 5%;
+    /* text-decoration: underline; */
+    width: 440px;
+    font-size: 1.5em;
+    height: 50px;
+    align-items: center;
+    font-size: 2em;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+a:visited{
+    color: #4D6DE3;
+}
+a:active{
+    color: #393737 ;
+}
+/*^ Header ^*/
+
+/*v banner v*/
+.banner{
+    background-image:url(./banner.png);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: #393737 5px solid;
+}
+.bannerh2{
+    font-size: 6em;
+    color: #4D6DE3;
+    background-color: #393737;
+    font-family: monospace;
+    width: 400px;
+    height: 1em;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border: #4D6DE3 5px solid;
+    padding: 10px;
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+}
+/*^ banner ^*/
+
+/*v Main v*/
+
+/*v about me v*/
+.about{
+    color: #393737;
+    display: flex;
+    font-family: monospace;
+    font-size: 1em;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.abouth2{
+    font-size: 3.5em;
+    border-right: #393737 5px solid;
+    flex: 0 0 20%;
+}
+.aboutp{
+    margin-left: 2%;
+    font-size: 2em;
+    flex: 0 0 80%;
+}
+/*^ about me ^*/
+
+/*v work + main img v*/
+.work{
+    color: #393737;
+    display: flex;
+    font-family: monospace;
+    /* margin-bottom: ; */
+    margin-top: 1%;
+    width: 100%;   
+    justify-content: space-between;
+}
+.workh2{
+    font-size: 3.5em;
+    border-right: #393737 5px solid; 
+    width: 8%;
+    margin-left: 2%;
+}
+/* Tried to make a clickable png 
+.stock{
+ background-image: url(./photo-1610563166150-b34df4f3bcd6.jpg);
+ height: 600px;
+ width: 100%;
+ border: #4D6DE3 5px solid;
+ margin-left: 2%; 
+} */
+
+.p1{
+    width: 100%;
+    border: #4D6DE3 5px solid;
+}  
+
+img:hover{-webkit-filter: brightness(150%);}
+
+/*^ Work + main img ^*/
+
+/*v work2 v*/
+.work2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    /* width: 80%; */
+    margin: 1% auto;
+    flex-wrap: wrap;
+}
+.work2 >img{
+    flex: 0 0 550px;
+    border: 5px #4D6DE3 solid;
+    /* margin-bottom: 1000px; */
+    flex-wrap: wrap;
+    height: 200px;
+    margin-left: 6%;
+    margin-right: 5.5%;
+}
+.work3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 80%;
+    margin: 1% auto;
+    flex-wrap: wrap;
+}
+.work3 >img{
+    flex: 0 0 550px;
+    border: 5px #4D6DE3 solid;
+    /* margin-bottom: 1000px; */
+    flex-wrap: wrap;
+    height: 200px;
+    margin-left: 6%;
+    margin-right: 5.5%;
+}
+/*v resume v*/
+.resume{
+    color: #393737;
+    display: flex;
+    font-family: monospace;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 100%;    
+    align-items: center;        
+}
+.resumeh2{
+    border-right: #393737 5px solid;
+    font-size: 3.5em;
+    margin-left: 2%;    
+    width: 8%;    
+}
+.resumep{
+    padding-left: 2%;
+    font-size: 2.5em;
+    width: 100%;
+}
+/*v footer v*/
+
+.footer{
+    color: #393737;
+    display: flex;
+    font-family: monospace;
+    font-size: 1em;
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 50px;   
+    align-items: center;
+}
+.footerh2{
+    border-right: #393737 5px solid;
+    font-size: 3.5em;
+    margin-left: 2%;
+    width: 8%;
+}
+.footerul{
+    font-size: 2.5em;
+    width: 100%;
+    margin-left: 2%;
+}
+.exam{
+    width: 100%;
+}
+.exam2{
+    justify-content: space-evenly;
+}
+@media screen and(max-width 500px){
+    .abouth2{
+        max-width: 100%;
+        display: block;
+        color: #4D6DE3;
+    }
+    .about{
+        max-width: 100%;
+        display: block;
+        color: #393737;
+    }
+    .aboutp{
+        max-width: 100%;
+        display: block;
+        color: #4D6DE3;
+    }
+}
