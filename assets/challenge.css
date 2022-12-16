@@ -10,8 +10,8 @@ resume alignment
 
  */
 body{
-    background-color: #F1FCFD;
-}
+    background-color: #F1FCFD;}
+
 header{
     display: flex;
     width: 100%;
@@ -35,7 +35,6 @@ header nav{
     display: flex;
     padding-right: 5%;
     /* text-decoration: underline; */
-    width: 440px;
     font-size: 1.5em;
     height: 50px;
     align-items: center;
@@ -95,7 +94,9 @@ a:active{
 .abouth2{
     font-size: 3.5em;
     border-right: #393737 5px solid;
-    flex: 0 0 20%;
+    flex: 0 0 10%;
+    text-align: end;
+    padding-right: 25px;
 }
 .aboutp{
     margin-left: 2%;
@@ -110,15 +111,15 @@ a:active{
     display: flex;
     font-family: monospace;
     /* margin-bottom: ; */
-    margin-top: 1%;
-    width: 100%;   
+    margin-top: 1%;   
     justify-content: space-between;
 }
 .workh2{
     font-size: 3.5em;
     border-right: #393737 5px solid; 
-    width: 8%;
-    margin-left: 2%;
+    flex: 0 0 10%;
+    text-align: end;
+    padding-right: 25px;
 }
 /* Tried to make a clickable png 
 .stock{
@@ -144,17 +145,16 @@ img:hover{-webkit-filter: brightness(150%);}
     justify-content: space-between;
     margin-top: 1%;
     /* width: 80%; */
-    margin: 1% auto;
     flex-wrap: wrap;
+    margin: 1% auto;
 }
 .work2 >img{
-    flex: 0 0 550px;
+    flex: 0 0 48%;
     border: 5px #4D6DE3 solid;
     /* margin-bottom: 1000px; */
     flex-wrap: wrap;
     height: 200px;
-    margin-left: 6%;
-    margin-right: 5.5%;
+    margin: 10px 0;
 }
 .work3{
     display: flex;
@@ -184,15 +184,16 @@ img:hover{-webkit-filter: brightness(150%);}
     align-items: center;        
 }
 .resumeh2{
-    border-right: #393737 5px solid;
     font-size: 3.5em;
-    margin-left: 2%;    
-    width: 8%;    
+    border-right: #393737 5px solid;
+    flex: 0 0 10%;
+    text-align: end;
+    padding-right: 25px;
 }
 .resumep{
     padding-left: 2%;
     font-size: 2.5em;
-    width: 100%;
+    flex: 0 0 80%;
 }
 /*v footer v*/
 
@@ -207,21 +208,25 @@ img:hover{-webkit-filter: brightness(150%);}
     align-items: center;
 }
 .footerh2{
-    border-right: #393737 5px solid;
     font-size: 3.5em;
-    margin-left: 2%;
-    width: 8%;
+    border-right: #393737 5px solid;
+    flex: 0 0 10%;
+    text-align: end;
+    padding-right: 25px;
 }
+
 .footerul{
     font-size: 2.5em;
     width: 100%;
-    margin-left: 2%;
+    text-align: center;
 }
 .exam{
-    width: 100%;
+    flex: 0 0 80%;
+    padding: 30px;
 }
 .exam2{
     justify-content: space-evenly;
+    padding: 30px;
 }
 @media screen and(max-width 500px){
     .abouth2{
