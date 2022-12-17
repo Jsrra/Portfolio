@@ -2,7 +2,7 @@
 
 ### Joseph's Portfolio
 
-This application is a portfolio about me that includes things about my previous work and wanys to contact me
+This application is a portfolio about me that includes things about me, previous work, and ways to contact me.
 
 ### Full Screen Images
 ![image](https://user-images.githubusercontent.com/117794483/208224810-0b20ea27-20a2-4739-9f1a-d671ce16fd2e.png)
