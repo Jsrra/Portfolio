@@ -1,14 +1,3 @@
-/*
-Horizontal Scroll Bar
-Responsiveness
-H2's and borders dont align
-position absolute 'portfolio' and labels
-4 work images aligned correctly
-center text 
-contact alignment
-resume alignment
-
- */
 body{
     background-color: #F1FCFD;}
 
@@ -51,9 +40,12 @@ a:visited{
 a:active{
     color: #393737 ;
 }
-/*^ Header ^*/
-
-/*v banner v*/
+header img {
+    height: 100%;
+    border-right:1px #4D6DE3 solid;
+    border-left:1px #4D6DE3 solid;
+}
+/*  */
 .banner{
     background-image:url(./banner.png);
     width: 100%;
@@ -74,15 +66,8 @@ a:active{
     margin-bottom: 20px;
     border: #4D6DE3 5px solid;
     padding: 10px;
-    /* text-align: center;
-    align-items: center;
-    justify-content: center; */
 }
-/*^ banner ^*/
-
-/*v Main v*/
-
-/*v about me v*/
+/*  */
 .about{
     color: #393737;
     display: flex;
@@ -103,9 +88,7 @@ a:active{
     font-size: 2em;
     flex: 0 0 80%;
 }
-/*^ about me ^*/
-
-/*v work + main img v*/
+/*  */
 .work{
     color: #393737;
     display: flex;
@@ -121,25 +104,20 @@ a:active{
     text-align: end;
     padding-right: 25px;
 }
-/* Tried to make a clickable png 
-.stock{
- background-image: url(./photo-1610563166150-b34df4f3bcd6.jpg);
- height: 600px;
- width: 100%;
- border: #4D6DE3 5px solid;
- margin-left: 2%; 
-} */
-
+.work-div{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 85%;
+    margin: 2%;
+}
+/*  */
 .p1{
     width: 100%;
     border: #4D6DE3 5px solid;
 }  
 
 img:hover{-webkit-filter: brightness(150%);}
-
-/*^ Work + main img ^*/
-
-/*v work2 v*/
+/*  */
 .work2{
     display: flex;
     justify-content: space-between;
@@ -156,25 +134,7 @@ img:hover{-webkit-filter: brightness(150%);}
     height: 200px;
     margin: 10px 0;
 }
-.work3{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1%;
-    width: 80%;
-    margin: 1% auto;
-    flex-wrap: wrap;
-}
-.work3 >img{
-    flex: 0 0 550px;
-    border: 5px #4D6DE3 solid;
-    /* margin-bottom: 1000px; */
-    flex-wrap: wrap;
-    height: 200px;
-    margin-left: 6%;
-    margin-right: 5.5%;
-}
-/*v resume v*/
-.resume{
+/* .resume{
     color: #393737;
     display: flex;
     font-family: monospace;
@@ -194,9 +154,7 @@ img:hover{-webkit-filter: brightness(150%);}
     padding-left: 2%;
     font-size: 2.5em;
     flex: 0 0 80%;
-}
-/*v footer v*/
-
+} */
 .footer{
     color: #393737;
     display: flex;
@@ -220,14 +178,7 @@ img:hover{-webkit-filter: brightness(150%);}
     width: 100%;
     text-align: center;
 }
-.exam{
-    flex: 0 0 80%;
-    padding: 30px;
-}
-.exam2{
-    justify-content: space-evenly;
-    padding: 30px;
-}
+
 @media screen and(max-width 500px){
     .abouth2{
         max-width: 100%;
