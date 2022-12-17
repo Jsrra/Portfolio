@@ -131,6 +131,19 @@ header img {
     width: 100%;
     border: #4D6DE3 5px solid;
 }  
+.container{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.sub{
+    position: absolute;
+    font-size: 3em;
+    color: #393737;
+    background-color: #4D6DE3;
+    height: fit-content;
+    top: 70%;
+}
 
 div img:hover{-webkit-filter: brightness(110%);}
 /*  */
